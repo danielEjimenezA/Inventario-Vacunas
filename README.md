@@ -1,2 +1,7 @@
 # Inventario-Vacunas
-Reto de ingreso a Kruger
+API REST
+~~~
+#1 Endpoint
+/empleado/registrat
+(http://localhost:8080/empleado/registrar)
+~~~
