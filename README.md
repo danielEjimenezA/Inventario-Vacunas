@@ -8,6 +8,48 @@
 |Put|empleado/actualizar     | Actualización de sus datos como empleado      |
 |Post|vacunacion/guardar     | Registro de los datos de vacunacion del empleado      |
 
+<h3>Endpoints registros bàsicos</h3>
+
+<p>http://localhost:8080/rol/guardar</p>
+
+```json
+{
+    "nombreRol": "Administrador"
+}
+```
+
+```json
+{
+    "nombreRol": "Empleado"
+}
+```
+
+<p>http://localhost:8080/tipovacuna/guardar</p>
+
+```json
+{
+    "nombreTipoVacuna":"ASTRAZENECA"
+}
+```
+
+```json
+{
+    "nombreTipoVacuna":"Sputnik"
+}
+```
+
+```json
+{
+    "nombreTipoVacuna":"Pfizer"
+}
+```
+
+```json
+{
+    "nombreTipoVacuna":"Jhonson&Jhonson"
+}
+```
+
 <h3>Endpoint #1</h3>
 <p>http://localhost:8080/empleado/registrar</p>
 
