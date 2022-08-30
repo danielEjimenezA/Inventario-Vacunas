@@ -4,8 +4,9 @@
 
 |Método| Endpoint                  | Descripción |
 |--------------| -----------               | ----------- |
-|Rest| empleado/registrar        | Registro de empleado por parte del administrador     |
+|Post| empleado/registrar        | Registro de empleado por parte del administrador     |
 |Put|empleado/actualizar     | Actualización de sus datos como empleado      |
+|Post|vacunacion/guardar     | Registro de los datos de vacunacion del empleado      |
 
 <h3>Endpoint #1</h3>
 <p>http://localhost:8080/empleado/registrar</p>
