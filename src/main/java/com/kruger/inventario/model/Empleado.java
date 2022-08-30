@@ -39,7 +39,7 @@ public class Empleado {
 	private Boolean estadoVacunacion;
 
 	@JoinColumn(name = "idUsuario", referencedColumnName = "idUsuario", nullable = true)
-	@ManyToOne(optional = false)
+	@ManyToOne(optional = true)
 	private Usuario idUsuario;
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "idEmpleado")
 	private List<Vacunacion> vacunacionList;
