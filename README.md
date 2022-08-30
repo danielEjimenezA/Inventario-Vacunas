@@ -28,7 +28,7 @@
 
 ```json
 {
-    "nombreTipoVacuna":"ASTRAZENECA"
+    "nombreTipoVacuna":"AstraZeneca"
 }
 ```
 
